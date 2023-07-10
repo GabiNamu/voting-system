@@ -16,6 +16,14 @@ public class PessoaCandidata extends Pessoa {
     this.votos = 0;
   }
 
+  public String getNome() {
+    return this.nome;
+  }
+
+  public void setNome(String newName) {
+    this.nome = newName;
+  }
+
   public int getNumero() {
     return this.numero;
   }
